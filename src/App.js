@@ -20,7 +20,6 @@ const App = () => {
 
   const [movies, setMovies] = useState([]);
 
-
   useEffect(()=>{
     searchMovie('Marry me');
   },[])
