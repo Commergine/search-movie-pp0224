@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className='App'>
        
-        <h1><img src={LogoColor} alt='logo'/>My Movie library</h1>
+        <h1><img src={LogoColor} alt='logo'/> THE Movie library</h1>
  
         <div className='search'>
           <input 
