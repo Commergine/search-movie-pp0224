@@ -1,4 +1,4 @@
-name: CI/CD for Search Online Movie
+name: CI/CD for React Website
 
 on:
   push:
@@ -24,8 +24,8 @@ jobs:
       with:
         host: ${{ secrets.HOSTINGER_HOSTNAME }}
         username: ${{ secrets.HOSTINGER_USERNAME }}
-        key: ${{ secrets.SSH_HOSTINGER_KEY_MOVIE }}
+        key: ${{ secrets.HOSTINGER_KEY }}
         script: |
-          cd /build
+          cd /path/to/your/website
           git pull origin main
           # Copy build files to your hosting directory
