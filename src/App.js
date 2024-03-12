@@ -21,7 +21,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(()=>{
-    searchMovie('Marry me');
+    searchMovie('Natasha');
   },[])
 
   const handleKeyDown = (event) => {
@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className='App'>
        
-        <h1><img src={LogoColor} alt='logo'/> THE Movie library</h1>
+        <h1><img src={LogoColor} alt='logo'/>Movie library</h1>
  
         <div className='search'>
           <input 
